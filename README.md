@@ -2,9 +2,11 @@ The data can be found [here](https://www.kaggle.com/datasets/felixzhao/productde
 
 # Summary
 
+The full analysis can be found [here](https://github.com/atamalu123/demand_forecasting/blob/main/demand_forecasting.ipynb)
+
 ## Item 1
 
-* The WAPE of Exponential Smoothing and SARIMA models are extremely high and the models are not useful
+* The Weighted Absolute Percentage Error (WAPE) of Exponential Smoothing and SARIMA models are extremely high and the models are not useful
 * So I tried two simpler models: 1. last observed value and 2. average of last 12 months
 * These last 12 month average model gave a lower WAPE than the 2 more complex models
 * A seasonal effect was noticed, so I tested another model using last year's demand for a given month as the predictor
