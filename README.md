@@ -57,4 +57,4 @@ This produces a table like
 * The second function, `best_future_forecast`, uses the first to determine the best model, then selects and returns the model used + WAPE + forecast.
 * The third function, `plot_product_demand_forecast`, plots the actual demand and next 12 months of forecasted demand
 
-![Demand Forecast]([http://url/to/img.png](https://github.com/atamalu123/demand_forecasting/blob/main/best_model_plot.png))
+![Demand Forecast](https://github.com/atamalu123/demand_forecasting/blob/main/best_model_plot.png)
